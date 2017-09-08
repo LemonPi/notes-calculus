@@ -1,0 +1,10 @@
+-----------------------------------------------------------
+    Notation (for notes)
+-----------------------------------------------------------
+- x_ indicates that x is a vector 
+- capitalized symbols indicate matrices
+- vector literals are enclosed by square brackets [...]
+- columns are separated by spaces [a b]
+- rows are separated by semicolons [a; b]
+- transpose indicated either by x_^T or x_'
+	- x_' is clearer when placed in multiplication like x_'a_ compared to x_^Ta_
