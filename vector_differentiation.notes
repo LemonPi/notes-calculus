@@ -1,0 +1,21 @@
+-----------------------------------------------------------
+    Differentiate scalar quantity wrt vector
+-----------------------------------------------------------
+- x_ = [x1; ...; xp]
+- a_ = [a1; ...; ap]
+- y = x_'a_ produces a scalar
+	- y = a1x1 + ... + apxp
+- dy/dx_ = [dy/dx1; ...; dy/dxp] = [a1; ...; ap] = a_
+- *result of differentiation has the same dimension as the independent variable*
+	- dy/dx_ must have same dimension as dx_
+- dy/dx_' = a_'
+
+-----------------------------------------------------------
+    Quadratic form
+-----------------------------------------------------------
+- x_ = [x1; x2], A = [a11 a12; a12 a22]
+- #quadratic form# is q = x_'Ax_
+	- q = a11 * x1^2 + 2a12 * x1x2 + a22 * x2^2
+- dq/dx_ = [dq/dx1; dq/dx2] 
+	= [2a11 * x1 + 2a12 * x2; 2a22 * x2 + 2a12 * x1]
+	= 2Ax_
